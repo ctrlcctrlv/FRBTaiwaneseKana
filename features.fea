@@ -14,7 +14,7 @@ feature valt {
     lookup valt2 {
         # Make glyph 0-width and move it back 1.5 glyphs; 
         # takes advantage of fact kana are monospace.
-                         #x   y   xadv yadv
-        pos @toneletters.valt <-1300 500 0 0>;
+                              # x    y   xadv yadv
+        pos @toneletters.valt <-1300 500 0    0>;
     } valt2;
 } valt;
