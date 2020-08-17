@@ -1,0 +1,20 @@
+languagesystem kana dflt;
+languagesystem dflt DFLT;
+
+@toneletters = [tone2 tone3 tone4 tone5 tone7 tone8 tone1_n tone2_n tone3_n tone4_n tone5_n tone7_n tone8_n];
+@toneletters.valt = [tone2.valt tone3.valt tone4.valt tone5.valt tone7.valt tone8.valt tone1_n.valt tone2_n.valt tone3_n.valt tone4_n.valt tone5_n.valt tone7_n.valt tone8_n.valt];
+
+feature valt {
+    lookup valt1 {
+        sub @toneletters by @toneletters.valt;
+    } valt1;
+} valt;
+    
+feature valt {
+    lookup valt2 {
+        # Make glyph 0-width and move it back 1.5 glyphs; 
+        # takes advantage of fact kana are monospace.
+                         #x   y   xadv yadv
+        pos @toneletters.valt <-1300 500 0 0>;
+    } valt2;
+} valt;

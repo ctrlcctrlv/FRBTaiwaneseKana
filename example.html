@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>FRB Taiwanese Kana</title>
+<style>
+@font-face {
+    font-family: "FRBTaiwaneseKana2";
+    src: url("./FRBTaiwaneseKana.otf");
+}
+
+body {
+    font-family: "FRBTaiwaneseKana2", "Noto Serif CJK TC", serif;
+    font-weight: 500;
+    font-size: 3em
+}
+
+rt {
+    font-feature-settings: "ruby" on;
+}
+
+.vert rt {
+    font-feature-settings: "valt" on;
+}
+
+.vert {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+</style>
+</head>
+
+<body>
+<p>臺タイ𛌅語ギイ𛌂</p>
+<p><ruby>臺<rt>タイ𛌅</rt>語<rt>ギイ𛌂</rt></ruby></p>
+<p class="vert"><ruby>臺<rt>タイ𛌅</rt>語<rt>ギイ𛌂</rt></ruby></p>
+</body>
+</html>
