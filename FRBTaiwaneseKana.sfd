@@ -5,7 +5,7 @@ FamilyName: FRBTaiwaneseKana
 Weight: Regular
 Copyright: Copyright (c) 2020, Fredrick R. Brennan <copypaste@kittens.ph>
 UComments: "2020-7-10: Created with FontForge (http://fontforge.org)"
-Version: 001.000
+Version: 001.100
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1594380404
-ModificationTime: 1597806876
+ModificationTime: 1597814559
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -5033,7 +5033,7 @@ Substitution2: "'ruby' Ruby Notational Forms lookup 1-1" uni30fc.valt.ruby
 EndChar
 
 StartChar: tone2
-Encoding: 118 111362 118
+Encoding: 118 113153 118
 Width: 500
 VWidth: 0
 Flags: W
@@ -5051,7 +5051,7 @@ Substitution2: "'salt' Stylistic Alternatives lookup 0-1" tone2.salt
 EndChar
 
 StartChar: tone3
-Encoding: 119 111363 119
+Encoding: 119 113154 119
 Width: 500
 VWidth: 0
 Flags: W
@@ -5068,7 +5068,7 @@ EndSplineSet
 EndChar
 
 StartChar: tone8
-Encoding: 123 111368 120
+Encoding: 123 113159 120
 Width: 500
 Flags: W
 HStem: 517.2 18.3994<113.865 122.654>
@@ -5089,7 +5089,7 @@ EndSplineSet
 EndChar
 
 StartChar: tone5
-Encoding: 121 111365 121
+Encoding: 121 113156 121
 Width: 500
 Flags: W
 LayerCount: 2
@@ -5106,7 +5106,7 @@ EndSplineSet
 EndChar
 
 StartChar: tone1_n
-Encoding: 124 111377 122
+Encoding: 124 113160 122
 Width: 500
 VWidth: 0
 Flags: W
@@ -5134,7 +5134,7 @@ EndSplineSet
 EndChar
 
 StartChar: tone7
-Encoding: 122 111367 123
+Encoding: 122 113158 123
 Width: 500
 VWidth: 0
 Flags: W
@@ -5153,7 +5153,7 @@ EndSplineSet
 EndChar
 
 StartChar: tone4
-Encoding: 120 111364 124
+Encoding: 120 113155 124
 Width: 500
 Flags: W
 HStem: 232.5 291.6
@@ -5174,7 +5174,7 @@ EndSplineSet
 EndChar
 
 StartChar: tone2_n
-Encoding: 125 111378 125
+Encoding: 125 113161 125
 Width: 500
 VWidth: 0
 Flags: W
@@ -5212,7 +5212,7 @@ EndSplineSet
 EndChar
 
 StartChar: tone3_n
-Encoding: 126 111379 126
+Encoding: 126 113162 126
 Width: 500
 VWidth: 0
 Flags: W
@@ -5247,7 +5247,7 @@ EndSplineSet
 EndChar
 
 StartChar: tone8_n
-Encoding: 130 111384 127
+Encoding: 130 113167 127
 Width: 500
 Flags: W
 HStem: 221 33.3252<254.96 351.937>
@@ -5276,7 +5276,7 @@ EndSplineSet
 EndChar
 
 StartChar: tone5_n
-Encoding: 128 111381 128
+Encoding: 128 113164 128
 Width: 500
 Flags: W
 HStem: 290.159 45.2412<100.157 200.284> 474.6 45.2412<100.157 200.284>
@@ -5344,7 +5344,7 @@ EndSplineSet
 EndChar
 
 StartChar: tone7_n
-Encoding: 129 111383 129
+Encoding: 129 113166 129
 Width: 500
 VWidth: 0
 Flags: W
@@ -5404,7 +5404,7 @@ EndSplineSet
 EndChar
 
 StartChar: tone4_n
-Encoding: 127 111380 130
+Encoding: 127 113163 130
 Width: 500
 Flags: W
 HStem: 277.686 31.1533<138.982 285.432> 493.649 30.4502<264.326 359.133>
@@ -10475,7 +10475,7 @@ Flags: HW
 VStem: 79 15.7266<723.296 748.561>
 LayerCount: 2
 Fore
-Refer: 118 111362 N 0 1 -1 0 649.364 142.637 2
+Refer: 118 113153 N 0 1 -1 0 649.364 142.637 2
 EndChar
 
 StartChar: tone3.valt
@@ -10486,7 +10486,7 @@ Flags: HW
 VStem: 79 15.7266<43.439 68.704>
 LayerCount: 2
 Fore
-Refer: 119 111363 N 0 1 -1 0 649.364 142.637 2
+Refer: 119 113154 N 0 1 -1 0 649.364 142.637 2
 EndChar
 
 StartChar: tone4.valt
@@ -10497,7 +10497,7 @@ HStem: 232.5 291.6
 VStem: 388.9 18.3994<242.165 250.954>
 LayerCount: 2
 Fore
-Refer: 124 111364 N 0 1 -1 0 628.3 128.3 2
+Refer: 124 113155 N 0 1 -1 0 628.3 128.3 2
 EndChar
 
 StartChar: tone5.valt
@@ -10506,7 +10506,7 @@ Width: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 121 111365 N 0 1 -1 0 648 148 2
+Refer: 121 113156 N 0 1 -1 0 648 148 2
 EndChar
 
 StartChar: tone7.valt
@@ -10517,7 +10517,7 @@ Flags: HW
 VStem: 233 28<0 88.667 722.121 804>
 LayerCount: 2
 Fore
-Refer: 123 111367 N 0 1 -1 0 652 152 2
+Refer: 123 113158 N 0 1 -1 0 652 152 2
 EndChar
 
 StartChar: tone8.valt
@@ -10528,7 +10528,7 @@ HStem: 517.2 18.3994<377.346 386.135>
 VStem: 104.2 291.6
 LayerCount: 2
 Fore
-Refer: 120 111368 N 0 1 -1 0 628.3 128.3 2
+Refer: 120 113159 N 0 1 -1 0 628.3 128.3 2
 EndChar
 
 StartChar: tone1_n.valt
@@ -10540,7 +10540,7 @@ HStem: 0.158956 45.2412<199.857 299.983> 184.6 45.2412<199.857 299.983>
 VStem: 319.52 45.2412<64.9362 801> 135.08 45.2402<64.9362 165.063>
 LayerCount: 2
 Fore
-Refer: 122 111377 N 0 1 -1 0 650.579 150.58 2
+Refer: 122 113160 N 0 1 -1 0 650.579 150.58 2
 EndChar
 
 StartChar: tone2_n.valt
@@ -10552,7 +10552,7 @@ HStem: 0.158441 45.2412<190.871 290.997> 184.599 45.2412<190.871 290.997>
 VStem: 310.533 45.2402<64.9356 116.896 116.999 116.999 204.999 367.159> 126.092 45.2412<64.9356 165.062>
 LayerCount: 2
 Fore
-Refer: 125 111378 N 0 1 -1 0 608.768 160.914 2
+Refer: 125 113161 N 0 1 -1 0 608.768 160.914 2
 EndChar
 
 StartChar: tone3_n.valt
@@ -10564,7 +10564,7 @@ HStem: 550.839 45.2412<302.096 402.223> 735.279 45.2412<302.096 402.223>
 VStem: 421.759 45.2412<615.616 715.743> 56.0942 43.3906<20.0738 35.4758>
 LayerCount: 2
 Fore
-Refer: 126 111379 N 0 1 -1 0 656.843 133.749 2
+Refer: 126 113162 N 0 1 -1 0 656.843 133.749 2
 EndChar
 
 StartChar: tone4_n.valt
@@ -10575,7 +10575,7 @@ HStem: 277.686 31.1533<214.568 361.018> 493.649 30.4502<140.867 235.674>
 VStem: 92.6998 33.3252<383.26 480.237>
 LayerCount: 2
 Fore
-Refer: 130 111380 N 0 1 -1 0 628.3 128.3 2
+Refer: 130 113163 N 0 1 -1 0 628.3 128.3 2
 EndChar
 
 StartChar: tone5_n.valt
@@ -10586,7 +10586,7 @@ HStem: 290.159 45.2412<299.716 399.843> 474.6 45.2412<299.716 399.843>
 VStem: 419.379 45.2422<354.937 455.063>
 LayerCount: 2
 Fore
-Refer: 128 111381 N 0 1 -1 0 648 148 2
+Refer: 128 113164 N 0 1 -1 0 648 148 2
 EndChar
 
 StartChar: tone7_n.valt
@@ -10598,7 +10598,7 @@ HStem: 300.159 45.2412<187.437 287.563> 484.6 45.2412<187.437 287.563>
 VStem: 326.341 28<0 127.217 686.522 804> 309.341 43<351.641 478.359> 122.659 45.2412<364.937 465.063>
 LayerCount: 2
 Fore
-Refer: 129 111383 N 0 1 -1 0 652 152 2
+Refer: 129 113166 N 0 1 -1 0 652 152 2
 EndChar
 
 StartChar: tone8_n.valt
@@ -10609,7 +10609,7 @@ HStem: 221 33.3252<148.063 245.04>
 VStem: 319.461 31.1533<342.868 489.318> 104.2 30.4502<269.166 363.974>
 LayerCount: 2
 Fore
-Refer: 127 111384 N 0 1 -1 0 628.3 128.3 2
+Refer: 127 113167 N 0 1 -1 0 628.3 128.3 2
 EndChar
 EndChars
 EndSplineFont
