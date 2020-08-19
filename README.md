@@ -25,6 +25,9 @@
 
 <!-- To make specimen; print to PDF in Firefox (landscape), then :
      gm convert -density 400 specimen.pdf +adjoin specimen-%0d.png -->
+     
+![](https://raw.githubusercontent.com/ctrlcctrlv/FRBTaiwaneseKana/master/specimen-0.png)
+![](https://raw.githubusercontent.com/ctrlcctrlv/FRBTaiwaneseKana/master/specimen-1.png)
 
 This is a Taiwanese kana font, originally meant to accompany my Unicode proposal, *A proposal to encode Taiwanese kana in the UCS*.
 
