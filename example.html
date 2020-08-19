@@ -17,13 +17,14 @@ rt {
     font-feature-settings: "ruby" on;
 }
 
-.vert rt {
-    font-feature-settings: "valt" on;
+.vert, .vert * {
+    font-feature-settings: "vert" on;
 }
 
 .vert {
     writing-mode: vertical-rl;
-    text-orientation: mixed;
+    text-orientation: upright;
+    line-height:2em
 }
 </style>
 </head>
@@ -32,5 +33,8 @@ rt {
 <p>臺タイ𛌅語ギイ𛌂</p>
 <p><ruby>臺<rt>タイ𛌅</rt>語<rt>ギイ𛌂</rt></ruby></p>
 <p class="vert"><ruby>臺<rt>タイ𛌅</rt>語<rt>ギイ𛌂</rt></ruby></p>
+
+<p>シェヌ シイ𛌑 コン𛌂、ハク𛌈 シェン チァム𛌇 チ̅ァム𛌇 チ̣̅ア𛌑。</p>
+<p class="vert">シェヌ シイ𛌑 コン𛌂、ハク𛌈 シェン チァム𛌇 チ̅ァム𛌇 チ̣̅ア𛌑。</p>
 </body>
 </html>

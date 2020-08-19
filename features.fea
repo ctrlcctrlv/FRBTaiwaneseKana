@@ -1,20 +1,29 @@
 languagesystem kana dflt;
 languagesystem dflt DFLT;
 
-@toneletters = [tone2 tone3 tone4 tone5 tone7 tone8 tone1_n tone2_n tone3_n tone4_n tone5_n tone7_n tone8_n];
-@toneletters.valt = [tone2.valt tone3.valt tone4.valt tone5.valt tone7.valt tone8.valt tone1_n.valt tone2_n.valt tone3_n.valt tone4_n.valt tone5_n.valt tone7_n.valt tone8_n.valt];
+@smallkana = [uni30A1 uni30A3 uni30A5 uni30A7 uni30A9 uni30C3 uni30E3 uni30E5 uni30E7 uni30EE uni30F5 uni30F6 uni31F0 uni31F1 uni31F2 uni31F3 uni31F4 uni31F5 uni31F6 uni31F7 uni31F8 uni31F9 uni31FA uni31FB uni31FC uni31FD uni31FE uni31FF uni1B166];
+@bigkana = [uni30AB uni30AC uni30AD uni30AE uni30AF uni30B0 uni30B1 uni30B2 uni30B3 uni30B4 uni30B5 uni30B6 uni30B7 uni30B8 uni30B9 uni30BA uni30BB uni30BC uni30BD uni30BE uni30BF uni30C0 uni30C1 uni30C2 uni30C4 uni30C5 uni30C6 uni30C7 uni30C8 uni30C9 uni30CA uni30CB uni30CC uni30CD uni30CE uni30CF uni30D0 uni30D1 uni30D2 uni30D3 uni30D4 uni30D5 uni30D6 uni30D7 uni30D8 uni30D9 uni30DA uni30DB uni30DC uni30DD uni30DE uni30DF uni30E0 uni30E1 uni30E2 uni30E4];
+@kana = [@smallkana @bigkana];
+@combiner = [combdot combline combline.salt];
 
-feature valt {
-    lookup valt1 {
-        sub @toneletters by @toneletters.valt;
-    } valt1;
-} valt;
-    
-feature valt {
-    lookup valt2 {
+@toneletters = [tone2 tone3 tone4 tone5 tone7 tone8 tone1_n tone2_n tone3_n tone4_n tone5_n tone7_n tone8_n];
+
+feature vert {
+    lookup vert2 {
         # Make glyph 0-width and move it back 1.5 glyphs; 
         # takes advantage of fact kana are monospace.
-                              # x    y   xadv yadv
-        pos @toneletters.valt <-1300 500 0    0>;
-    } valt2;
-} valt;
+                         # x    y   xadv yadv
+        pos @toneletters <600  1500 0    -1000>;
+
+        # Move small kana up
+        pos @smallkana <0 250 0 -300>;
+    } vert2;
+} vert;
+
+feature vert {
+    lookup vert3 {
+        pos @kana @kana @kana @toneletters' <0 300 0 0>;
+        pos @kana @combiner @kana @kana @toneletters' <0 300 0 0>;
+        pos @kana @kana @combiner @kana @toneletters' <0 300 0 0>;
+    } vert3;
+} vert;
