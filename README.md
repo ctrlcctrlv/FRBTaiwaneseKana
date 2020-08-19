@@ -1,7 +1,7 @@
 <!-- pandoc -f markdown -t html -i README.md -o README.html -->
 
 <!-- Only works w/Pandoc, not in GitHub where it's ignored. -->
-<style>
+<!--<style>
     @font-face {
         font-family: "FRBTaiwaneseKana2";
         src: url("./FRBTaiwaneseKana.otf");
@@ -19,7 +19,7 @@
     th, td {
         padding: 5px
     }
-</style>
+</style>-->
 
 # FRB Taiwanese Kana
 
